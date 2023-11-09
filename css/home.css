@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/techno-board');
+
+html ::-webkit-scrollbar {
+  display: none;
+}
+.intro {
+  width: 42vw;
+  height: 6vw;
+  color: #4cb3c0;
+  font-size: 2vw;
+  margin-left: 7vw;
+  text-align: left;
+  margin-top: 13vw;
+  transform: translateY(-9vw);
+  font-family: "Techno Board", Courier;
+  text-shadow:5px -10px 0px #19191a;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;    
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+img {
+    float: right;
+    margin-right: 10vw;
+    transform: translateY(-18vw);
+    border: 3px solid #64d6e6;
+    width: 25vw;
+    height: 30vw;
+    animation: fadeInUpAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInUpAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+      }
+}   
+h2,h3 {
+  text-align: left;
+  font-size: 5vw;
+  font-family: "Techno Board", Courier;
+  color: #4cb3c0;
+  margin-top: 11vw;
+   text-shadow:6px -11px 0px #19191a;
+}
+
+/******S & M phone*******/
+@media only screen and (orientation:portrait) {
+html ::-webkit-scrollbar {
+  display: none;
+}
+.intro {
+  width: 90%;
+  height: 60%;
+  color: #20db94;
+  font-size: 3.5vw;
+  text-align: center;
+  transform: translateY(-9vw);
+  font-family: "Techno Board", Courier;
+  text-shadow:4px -2px 0px #19191a;
+}
+img {
+    margin-right: 22vw;
+    transform: translateY(-8vw);
+    border: 3px solid #64d6e6;
+    width: 53vw;
+    height: 65vw;
+  }
+h2,h3 {
+    text-align: center;
+    font-size: 6vw;
+    font-family: "Techno Board", Courier;
+    color: #20db94;
+    margin-top: 15vw;
+    text-shadow:5px -3px 0px #19191a;
+}
+}
+/******L phone*******/
+@media only screen and (min-width:376px) and (max-width:425px) {
+  
+  img {
+    transform: translateY(-3vw);
+    
+}
+}
+/******tablet*******/
+@media only screen and (min-width:426px) and (max-width:768px) {
+
+  .intro {
+    width: 45vw;
+   font-size: 2.5vw;
+  }
+  
+  img {
+      transform: translateY(-15vw);
+      width: 27vw;
+      height: 34vw;
+  }
+
+  h2,h3 {
+      font-size: 6vw;
+      margin-top: 19vw;
+      text-shadow:6px -8px 0px #19191a;
+  }
+}
+/******laptop*******/
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  img {
+    transform: translateY(-15vw);
+    width: 26vw;
+    height: 30vw;
+}
+}

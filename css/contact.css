@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.contactus {
+  background-color: #243d3d;
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  color: #64d6e6;
+  font-size: 1.4vw;
+  font-family: monospace;
+  float: right;
+  margin-right: 6vw;
+  text-align: center;
+  transform: translateY(-6vw);
+  border: 3px solid #649ce6;
+  border-radius: 8%;
+}
+
+h1 {
+    color: #64d6e6;
+    font-size: 3vw;
+    margin-left: 20vw; 
+    font-family: "Techno Board", Courier;
+}
+h4 {
+  color: #64d6e6;
+  font-size: 1.8vw;
+  margin-left: 1vw;
+  font-family: "Techno Board"; 
+}
+h2,h3 {
+    color: #64d6e6;
+    font-size: 1.8vw;
+    font-family: "Techno Board";
+}
+img {
+    height: 5vw;
+    width: 5vw;
+}
+
+.contact :hover{
+  transform: scale(1.2)
+  translateY(-6px);
+}
+
+button {
+background: none;
+transform: translateY(0.5vw);
+}
+
+.contact a:link {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.Contact Form {
+    position: relative;
+    width: 38vw;
+    height: 35vw;
+    color: #64d6e6;
+    font-size: 1.7vw;
+    text-align: left;
+    float: left;
+    margin-left: 4vw;
+    font-family: "Techno Board", Courier;
+    transform: translateY(-2vw);
+}
+
+body {font-family: Georgia, 'Times New Roman', Times, serif;}
+* {box-sizing: border-box;}
+
+input[type=text] ,input[type=email] {
+  width: 40vw;
+  height: 3.1vw;
+  padding: 1vw;
+  border: 3px solid #649ce6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  font-family: "Techno Board", Courier;
+  animation: element 5s infinite;
+}
+textarea {
+  width: 40vw;
+  height: 4.5vw;
+  padding: 1vw;
+  border: 3px solid #649ce6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  font-family: "Techno Board", Courier;
+  animation: element 5s infinite;
+}
+ 
+input[type=reset] {
+  background-color: #4272a5e3;
+  color: #64d6e6;
+  padding: 1px;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 3vw;
+  width: 11vw;
+  font-size: 2vw;
+  font-family: "Techno Board", Courier;
+  margin-left: 3vw;
+  margin-top: 0.5vw;
+}
+
+input[type=submit] {
+  background-color: #4272a5e3;
+  color: #64d6e6;
+  padding: 1px;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 3vw;
+  width: 11vw;
+  font-size: 2vw;
+  font-family: "Techno Board", Courier;
+  margin-left: 11vw;
+  margin-top: 0.5vw;
+}
+input[type=reset]:hover {
+  background-color: #60999b;
+  color: white;
+}
+input[type=submit]:hover {
+  background-color: #60999b;
+  color: white;
+}
+
+/******S & M phone*******/
+@media only screen and (orientation:portrait) {
+  
+  .contactus {
+    width: 50vw;
+    height: 44vw;
+    font-size: 2.2vw;
+    float: right;
+    margin-right: 28vw;
+    text-align: center;
+    transform: translateY(2vw);
+
+  }
+  
+  h1 {
+    font-size: 4vw;
+    margin-left: 40vw; 
+    text-shadow:3px -3px 0px #19191a;
+       
+  }
+  h4 {
+    color: #64d6e6;
+    font-size: 2.5vw;
+    margin-left: 1vw;
+    font-family: "Techno Board";
+    text-shadow:2px -3px 0px #19191a; 
+  }
+  h2,h3 {
+    color: #64d6e6;
+    font-size: 2.5vw;
+    font-family: "Techno Board";
+    text-shadow:2px -3px 0px #19191a;
+  }
+  img {
+    height: 5vw;
+    width: 5vw;
+  }
+  
+  .contact :hover{
+    transform: scale(1.2)
+    translateY(-6px);
+  }
+  
+  button {
+  background: none;
+  transform: translateY(1vw);
+  }
+  
+  .contact a:link {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  
+  .Contact Form {
+      width: 70vw;
+      height: 40vw;
+      color: #64d6e6;
+      font-size: 3vw;
+      text-align: left;
+      margin-left: 1vw; 
+      transform: translateY(-0.5vw);
+  }
+
+* {box-sizing: border-box;}
+  
+  input[type=text] ,input[type=email] {
+    width: 70vw;
+    height: 5vw;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+  }
+  textarea {
+    width: 70vw;
+    height: 8vw;
+    padding: 1vw;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+  }
+   
+  input[type=reset] {
+    background-color: #1b3047e3;
+    height: 6vw;
+    width: 20vw;
+    font-size: 3vw;
+    text-shadow:2px -3px 0px #19191a;
+  }
+  
+  input[type=submit] {
+    background-color: #1b3047e3;
+    color: #64d6e6;
+    height: 6vw;
+    width: 20vw;
+    font-size: 3vw;
+    margin-left: 20;
+    text-shadow:2px -3px 0px #19191a;
+  }
+
+}
+/******L phone*******/
+@media only screen and (min-width:376px) and (max-width:425px) {
+  
+  .contactus {
+    transform: translateY(0.6vw);
+    size: 1vw;
+    height: 47vw;
+}
+
+h2,h3,h4  {
+  font-size: 2.5vw;
+}
+img {
+  height: 5vw;
+  width: 5vw;
+}
+}
+
+/******tablet*******/
+@media only screen and (min-width:426px) and (max-width:768px) {
+
+  .contactus {
+    size: 1.5vw;
+    height: 37vw;
+    width: 38vw;
+  }
+  h1 {
+    margin-top: 9vw;
+  }
+  h2,h3,h4  {
+    font-size: 2.3vw;
+  }
+  img {
+    height: 5vw;
+    width: 5vw;
+  }
+  .Contact Form {
+    transform: translateY(2vw);
+  }
+
+}
+
+/******laptop*******/
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .contactus {
+    size: 1.5vw;
+    height: 34vw;
+    width: 30vw;
+    transform: translateY(-9vw);
+  }
+  h1 {
+    margin-top: 6vw;
+  }
+  h2,h3,h4  {
+    font-size: 2vw;
+  }
+  img {
+    height: 5vw;
+    width: 5vw;
+  }
+
+}
